@@ -1,6 +1,10 @@
 import FirstMiddle from "./FirstMiddle";
 import FirstSection from "./FirstSection";
+import Footer from "./Footer";
+import LastSection from "./LastSection";
+import MixContainer from "./MixContainer";
 import Navbar from "./Navbar";
+import SecondMiddle from "./SecondMiddle";
 
 function FirstVersion () {
     return (
@@ -8,6 +12,10 @@ function FirstVersion () {
             <Navbar/>
             <FirstSection/>
             <FirstMiddle/>
+            <SecondMiddle/>
+            <MixContainer/>
+            <LastSection/>
+            <Footer/>
         </div>
     );
 }

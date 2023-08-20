@@ -1,4 +1,4 @@
-import React from 'react'; // Import React at the top
+import React from 'react'; 
 import logo from '../assets/logo.svg'
 import search from '../assets/search.svg'
 import hamburger from '../assets/hamburger.svg'
