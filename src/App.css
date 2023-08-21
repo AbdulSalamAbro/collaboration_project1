@@ -21,9 +21,10 @@ div img {
   display: flex;
   flex-direction: column;
   font-family: "Noto Sans", sans-serif;
-  font-weight: 300;
+  width: 100%;
   color: #fff;
-  margin-bottom: 20px;
+  text-align: left;
+  margin-bottom: 25px;
 }
 
 h4,
@@ -39,12 +40,21 @@ p {
     justify-content: center;
     gap: 25px;
   }
+
+  .content {
+     font-size: 1.2rem;
+  }
 }
 
 @media screen and (min-width: 769px) {
   section {
+    padding: 0;
     display: flex;
     flex-direction: row;
     gap: 30px;
+  }
+
+  .content {
+      font-size: 1.5rem;
   }
 }
