@@ -1,0 +1,31 @@
+.hamburgerContainer {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #0E204C;
+    gap: 3rem;
+    padding: 3rem 1rem;
+}
+
+.hamburgerListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hamburgerListContainer hr {
+    border: 2px solid rgb(38,54,94);
+}
+
+.hamburgerList {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.hamburgerList li a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 1rem;
+}

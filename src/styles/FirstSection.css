@@ -12,3 +12,36 @@
     gap: 1rem;
     padding-top: 1rem;
 }
+
+@media screen and (min-width:768px) {
+    .FirstContainer {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        background-color: #0E204C;
+        gap: 1rem;
+        padding: 15rem 4rem;
+    }
+
+    .FirstContainer h1 {
+        max-width: 800px;
+        font-weight: 400;
+        line-height: 58px;
+        font-size: 52px;
+    }
+
+    .FirstContainer span {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .readmore {
+        display: flex;
+        gap: 1rem;
+        padding-top: 2rem;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 28.6px;
+    }
+}

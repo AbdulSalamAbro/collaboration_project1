@@ -17,3 +17,16 @@
     display: flex;
     gap: 1rem;
 }
+
+
+@media screen and (min-width:768px) {
+    .FirstMiddleContainer {
+        color: #fff;
+        background-color: #0E204C;
+        padding: 3rem 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3rem;
+    }
+
+}

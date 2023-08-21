@@ -10,10 +10,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<FirstVersion />} />
-        <Route path="/ham" element={<HamburgerPage />} />
+        <Route path="/hamburger" element={<HamburgerPage />} />
       </Routes>
     </div>
-
   );
 }
 

@@ -6,7 +6,7 @@ import '../styles/SecondMiddle.css'
 const SecondMiddle = () => {
     return (
         <section className='SecondMiddleContainer'>
-            <div className='card'>
+            <div className='card firstCard'>
                 <img className='projectImage' src={card1} alt="" />
                 <div className='TitleContainer'>
                     <p>How to optimize your pages to get more traffic
