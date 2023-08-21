@@ -4,3 +4,16 @@
     flex-direction: column;
     gap: 2rem;
 }
+
+@media screen and (min-width:768px) {
+    .LastSection{
+        padding: 3rem 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .LastSectionFirstChild {
+        grid-column: span 3;
+    }
+}

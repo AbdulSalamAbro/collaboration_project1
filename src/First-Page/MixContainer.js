@@ -18,19 +18,21 @@ const MixContainer = () => {
                     </span>
                 </div>
             </div>
-            <div className='card'>
-                <img src={card1} alt="" />
-                <span>Egestas ac hac quam laoreet.</span>
-                <h3>Integer maecenas commodo fermentum quis hac ornare.</h3>
-                <p>Donec id nisi eget lacus, accumsan, est a adipiscing. Viverra aliquet posuere tempus a.
-                     Neque sed lacus eleifend amet accumsan mauris dictum.
-                      Erat porta purus pellentesque egestas fringilla dolor convallis.
-                     Scelerisque gravida ac amet libero fermentum. Ipsum tellus ultricies vestibulum
-                </p>
-                <span className='readButton'>
-                    Read More
-                    <img className='black' src={Arrow} alt="" />
-                </span>
+            <div className='MixSecondcard'>
+                <img className='image' src={card1} alt="" />
+                <div className='MixContainerDetail'>
+                    <span>Egestas ac hac quam laoreet.</span>
+                    <h3>Integer maecenas commodo fermentum quis hac ornare.</h3>
+                    <p>Donec id nisi eget lacus, accumsan, est a adipiscing. Viverra aliquet posuere tempus a.
+                        Neque sed lacus eleifend amet accumsan mauris dictum.
+                        Erat porta purus pellentesque egestas fringilla dolor convallis.
+                        Scelerisque gravida ac amet libero fermentum. Ipsum tellus ultricies vestibulum
+                    </p>
+                    <span className='readButton'>
+                        Read More
+                        <img className='black' src={Arrow} alt="" />
+                    </span>
+                </div>
             </div>
         </section>
     );

@@ -13,3 +13,30 @@
 
     fill: blue;
 }
+
+
+@media screen and (min-width:768px) {
+    .MixContainer {
+        padding: 3rem 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .MixSecondcard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .MixContainerDetail {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .image {
+        width: 100%;
+        max-height: 390px;
+    }
+
+}

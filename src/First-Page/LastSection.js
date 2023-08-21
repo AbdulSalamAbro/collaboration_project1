@@ -5,7 +5,7 @@ import '../styles/LastSection.css'
 const LastSection = () => {
     return (
         <section className='LastSection'>
-            <h2>Integer maecenas commodo fermentum</h2>
+            <h2 className='LastSectionFirstChild'>Integer maecenas commodo fermentum</h2>
             <div className='card'>
                 <img src={card1} alt="" />
                 <h3>Why wavering customer confidence could stall</h3>
