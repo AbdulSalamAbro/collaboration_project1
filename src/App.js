@@ -1,9 +1,15 @@
 import './App.css';
+import FourthVersion from './Fourth-Page/FourthVersion';
 import FirstVersion from './First-Page/FirstVersion';
+
 
 function App() {
   return (
-    <FirstVersion/>
+    <div>
+      <FirstVersion />
+      <FourthVersion />
+    </div>
+
   );
 }
 
