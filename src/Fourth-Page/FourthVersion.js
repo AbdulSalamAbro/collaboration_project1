@@ -6,7 +6,11 @@ import SectionTwo from './SectionTwo';
 import SectionThree from './SectionThree';
 import SectionFour from './SectionFour';
 import SectionFive from './SectionFive';
+import SectionSix from './SectionSix';
+import SectionSeven from './SectionSeven';
+import SectionEight from './SectionEight';
 import Footer from '../First-Page/Footer';
+
 
 function FourthVersion() {
   return (
@@ -18,7 +22,10 @@ function FourthVersion() {
          <SectionThree />
          <SectionFour />
          <SectionFive />
-         {/* <Footer /> */}
+         <SectionSix />
+         <SectionSeven />
+         <SectionEight />
+         <Footer />
     </div>
   )
 }
