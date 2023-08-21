@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from '../assets/logo.svg';
 import search from '../assets/search.svg';
 import hamburger from '../assets/hamburger.svg';
+import cancel from '../assets/cancelIcon.svg'
 import '../styles/Navbar.css';
 import { Link } from 'react-router-dom';
 
@@ -24,7 +25,9 @@ const Navbar = () => {
         <li className='SearchAndHamburger'>
           <img src={search} alt="search icon" />
           {isHamburgerActive ? (
-            <span onClick={toggleHamburger}>x</span>
+            <Link to="/">
+              <img src={cancel} alt="hamburger icon" onClick={toggleHamburger} />
+            </Link>
           ) : (
             <Link to="/hamburger">
               <img src={hamburger} alt="hamburger icon" onClick={toggleHamburger} />
