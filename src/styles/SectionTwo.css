@@ -1,0 +1,25 @@
+.bold{
+  font-weight: 900;
+}
+.para1{
+  font-size: 2rem;
+  color: #3D4160;
+  margin-bottom: 4%;
+}
+.para2{
+  color: #888B9E;
+  font-size: 1.1rem;
+  line-height: 22px;
+}
+.readmore {
+  display: flex;
+  color: #3D4160;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+.second-div{
+  height: 420px;
+  padding: 4%;
+  color: #3D4160;
+  background-color: #F9F9F0;
+}

@@ -1,0 +1,20 @@
+.category-list{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  padding: 5%;
+  background-color: #FFFFFF;
+}
+.icon-list{
+  display: flex;
+  gap: 7px; 
+  align-items: center;
+}
+.category-text,
+.contact,
+.book-call {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #3D4160;
+}

@@ -1,0 +1,29 @@
+.quotes{
+  color:rgba(255, 255, 255, 1);
+  font-size: 4rem;
+  font-style: italic;
+}
+.section-four{
+  height: 692px;
+  background-color: #BA804D;
+  padding: 5%;
+}
+.para4{
+  font-size: 2.2rem;
+  color: #FFFF;
+  padding: 5%;
+}
+.para5{
+  font-weight: 600;
+  color: #FFFF;
+  padding: 5%;
+  padding-bottom: 1%;
+  font-family: 'Inter', sans-serif;
+}
+.para6{
+  font-weight: 100;
+  color: #FFFF;
+  padding: 5%;
+  padding-top: 1%;
+  font-family: 'Inter', sans-serif;
+}

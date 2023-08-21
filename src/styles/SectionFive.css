@@ -1,0 +1,17 @@
+.section-five{
+height: fit-content;
+background-color: #0E204C;
+padding: 40px, 20px, 40px, 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 15px;
+}
+
+
+.info-five{
+  color: #FFFF;
+  padding: 4%;
+
+}
