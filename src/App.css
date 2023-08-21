@@ -48,7 +48,6 @@ p {
 
 @media screen and (min-width: 769px) {
   section {
-    padding: 0;
     display: flex;
     flex-direction: row;
     gap: 30px;
