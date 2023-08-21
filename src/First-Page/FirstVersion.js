@@ -3,13 +3,11 @@ import FirstSection from "./FirstSection";
 import Footer from "./Footer";
 import LastSection from "./LastSection";
 import MixContainer from "./MixContainer";
-import Navbar from "./Navbar";
 import SecondMiddle from "./SecondMiddle";
 
 function FirstVersion () {
     return (
-        <div>
-            <Navbar/>
+        <div className="FirstVersion">
             <FirstSection/>
             <FirstMiddle/>
             <SecondMiddle/>

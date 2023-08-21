@@ -1,13 +1,17 @@
 import React from 'react';
 import '../styles/footer.css'
 import logo from '../assets/logo.svg'
+import facebook from '../assets/facebookLogo.svg'
+import insta from '../assets/Group.svg'
+import twitter from '../assets/Group (1).svg'
+import linkdien from '../assets/Vector.svg'
 
 const Footer = () => {
     return (
         <footer>
             <div className='firstContainer'>
                 <span>888.456.5609</span>
-                <label for="cars">Global / English</label>
+                <label >Global / English</label>
                 <select name="cars" id="cars">
                     <option ></option>
                     <option >French</option>
@@ -15,7 +19,7 @@ const Footer = () => {
                     <option >English</option>
                 </select>
             </div>
-            <hr />
+            <hr className='BreakLine' />
             <div className='MiddleContainer'>
                 <ul className='firstList'>
                     <li className='LogoContainer'>
@@ -25,18 +29,18 @@ const Footer = () => {
                     <li>
                         <p>Marketeq specializes in digital growth strategy and conversion focused web design.</p>
                     </li>
-                    <li>
-                        <a href="">
-                            <img src="" alt="" />
+                    <li className='AllIcons'>
+                        <a href="/">
+                            <img className='logo' src={facebook} alt="facebook" />
                         </a>
-                        <a href="">
-                            <img src="" alt="" />
+                        <a href="/">
+                            <img className='logo' src={insta} alt="twitter" />
                         </a>
-                        <a href="">
-                            <img src="" alt="" />
+                        <a href="/">
+                            <img className='logo' src={twitter} alt="instagram" />
                         </a>
-                        <a href="">
-                            <img src="" alt="" />
+                        <a href="/">
+                            <img className='logo' src={linkdien} alt="linkdien" />
                         </a>
                     </li>
                 </ul>
