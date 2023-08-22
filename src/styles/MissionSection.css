@@ -1,0 +1,24 @@
+.mission-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.mission{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.mission-button{
+  border: none;
+  padding: 10%;
+  background: none;
+}
+.main-b{
+  border-bottom: 5px solid black;
+}
+hr{
+  width: 90%;
+  margin-bottom: 20px;
+
+}

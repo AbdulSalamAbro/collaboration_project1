@@ -1,0 +1,13 @@
+.fourteen-div {
+  background-color: white;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.fourteen-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 10%;
+}

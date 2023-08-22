@@ -1,0 +1,12 @@
+.section-thirteen{
+  height: 249px;
+  background-color: #0E204C;
+  padding: 10%;
+  color: #FFFF;
+}
+.sub-thirteen{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30%;
+}

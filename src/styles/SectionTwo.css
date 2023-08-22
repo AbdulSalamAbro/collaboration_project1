@@ -13,6 +13,7 @@
 }
 .readmore {
   display: flex;
+  align-items: flex-end;
   color: #3D4160;
   gap: 1rem;
   padding-top: 1rem;
