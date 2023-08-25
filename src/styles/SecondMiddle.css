@@ -50,7 +50,6 @@
 
     .firstCard {
         grid-column: span 3;
-        width: 648px;
     }
 
     .projectImage {
