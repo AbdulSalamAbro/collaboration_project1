@@ -28,7 +28,7 @@ const MixContainer = () => {
                         Erat porta purus pellentesque egestas fringilla dolor convallis.
                         Scelerisque gravida ac amet libero fermentum. Ipsum tellus ultricies vestibulum
                     </p>
-                    <span className='readButton'>
+                    <span className='readButton black'>
                         Read More
                         <img className='black' src={Arrow} alt="" />
                     </span>

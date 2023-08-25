@@ -5,7 +5,7 @@ import '../styles/FirstSection.css'
 const FirstSection = () => {
     return ( 
         <div className='FirstContainer'>
-            <span>Artificial Intelligence</span>
+            <h3>Artificial Intelligence</h3>
             <h1>
                 What's Behind Tesla's Latest
                 Self-Driving Vechile Updates

@@ -35,7 +35,6 @@ const Navbar = () => {
           )}
         </li>
       </ul>
-      <hr className='BreakLine' />
     </nav>
   );
 }

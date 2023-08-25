@@ -1,22 +1,21 @@
 footer {
     color: #fff;
     background-color: #0E204C;
-    padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
 }
 
-.firstContainer {
+footer .firstContainer {
     display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
+    gap: 30px;
+    padding: 20px;
 }
 
 .MiddleContainer {
     display: flex;
     flex-direction: column;
-    padding: 2rem 0;
-    gap: 2rem;
+    padding: 40px 20px 40px 20px;
+    gap: 50px;
 }
 
 .firstList {
@@ -36,8 +35,8 @@ footer {
 .lastContainer {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    padding-top: 3rem;
+    gap: 20px;
+    padding: 40px 20px 40px 20px;
 }
 
 .LastList {
@@ -47,17 +46,67 @@ footer {
 
 .AllIcons {
     display: flex;
-    gap: 1rem;
+    gap: 8px;
 }
 
 .logo {
-    padding: 0.8rem 1rem;
+    padding: 0.5rem 0.6rem;
     background-color: rgb(38,54,94);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .BreakLine {
     margin: 0 -15px;
     border: 2px solid rgb(38,54,94);
+}
 
+.firstContainer  span {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+.LogoContainer h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+.firstList p{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.34px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.SecondList li span {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+.lastContainer span {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+.lastContainer p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.34px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.LastList span {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.07px;
 }

@@ -6,13 +6,13 @@ import '../styles/SecondMiddle.css'
 const SecondMiddle = () => {
     return (
         <section className='SecondMiddleContainer'>
-            <div className='card firstCard'>
+            <div className='card onlyCard'>
                 <img className='projectImage' src={card1} alt="" />
                 <div className='TitleContainer'>
                     <p>How to optimize your pages to get more traffic
                         on mobile devices.
                     </p>
-                    <span className='readButton'>
+                    <span className='SecondreadButton'>
                         Read More
                         <img src={Arrow} alt="" />
                     </span>

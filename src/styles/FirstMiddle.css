@@ -1,21 +1,31 @@
 .FirstMiddleContainer {
-    color: #fff;
+    color: rgba(255, 255, 255, 1);
     background-color: #0E204C;
-    padding: 3rem 1rem;
+    padding: 0px 20px 40px 20px;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 30px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 14px;
+}
+
+.FirstMiddleContainer .card p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.48px;
 }
 
 .readButton {
     display: flex;
-    gap: 1rem;
+    gap: 13px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.34px;
 }
 
 

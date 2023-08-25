@@ -1,17 +1,58 @@
 .MixContainer {
-    padding: 3rem 1rem;
+    padding: 40px 20px 40px 20px;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 20px;
 }
 
 .white {
     color: #fff;
+    padding: 150px 20px 20px 20px;
 }
 
 .black {
-
     fill: blue;
+    color: rgba(48, 108, 254, 1);
+}
+
+.TitleContainer p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 26.43;
+  line-height: 34.88px;
+}
+
+.MixSecondcard {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.MixContainerDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.MixContainer span {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16.34px;
+}
+
+.MixContainer h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 29.17px;
+}
+
+.MixContainer p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19.07px;
 }
 
 

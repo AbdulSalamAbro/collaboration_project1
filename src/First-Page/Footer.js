@@ -11,9 +11,8 @@ const Footer = () => {
         <footer>
             <div className='firstContainer'>
                 <span>888.456.5609</span>
-                <label >Global / English</label>
                 <select name="cars" id="cars">
-                    <option ></option>
+                    <option >Global / English</option>
                     <option >French</option>
                     <option >english</option>
                     <option >English</option>

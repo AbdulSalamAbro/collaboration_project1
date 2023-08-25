@@ -1,16 +1,32 @@
 .FirstContainer {
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: rgba(255, 255, 255, 1);
     background-color: #0E204C;
-    gap: 1rem;
-    padding: 15rem 1rem 3rem 1rem;
+    gap: 20px;
+    padding: 300px 20px 40px 20px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.FirstContainer h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16.34px;
+}
+
+.FirstContainer h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44.88px;
 }
 
 .readmore {
     display: flex;
-    gap: 1rem;
-    padding-top: 1rem;
+    gap: 9.58px;
+    padding-top: 20px;
 }
 
 @media screen and (min-width:768px) {
