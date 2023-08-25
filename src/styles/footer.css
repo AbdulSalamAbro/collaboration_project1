@@ -5,6 +5,23 @@ footer {
     flex-direction: column;
 }
 
+.logoTextContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.insideContainer {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.anotherInside {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
 footer .firstContainer {
     display: flex;
     gap: 30px;
@@ -109,4 +126,44 @@ footer .firstContainer {
     font-weight: 500;
     font-size: 14px;
     line-height: 19.07px;
+}
+
+.firstContainer img {
+    display: none;
+}
+
+.logoTextContainer {
+    display: none;
+}
+
+@media (min-width:576px) and (max-width:768px) {
+
+    .firstList li.LogoContainer {
+        display: none;
+    }
+    .MiddleContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 40px 20px 40px 20px;
+        gap: 50px;
+    }
+
+    .SecondList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .firstContainer img {
+        display: flex;
+    }
+
+    .insideContainer {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .logoTextContainer {
+        display: flex;
+    }
+    
 }

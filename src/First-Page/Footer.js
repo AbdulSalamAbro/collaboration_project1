@@ -10,13 +10,21 @@ const Footer = () => {
     return (
         <footer>
             <div className='firstContainer'>
-                <span>888.456.5609</span>
-                <select name="cars" id="cars">
-                    <option >Global / English</option>
-                    <option >French</option>
-                    <option >english</option>
-                    <option >English</option>
-                </select>
+                <div className='insideContainer'>
+                    <div className='logoTextContainer'>
+                        <img src={logo} alt="Logo" />
+                        <h3>Marketeq</h3>
+                    </div>
+                    <div className='anotherInside'>
+                        <span>888.456.5609</span>
+                        <select name="cars" id="cars">
+                            <option >Global / English</option>
+                            <option >French</option>
+                            <option >english</option>
+                            <option >English</option>
+                        </select>
+                    </div>
+                </div>
             </div>
             <hr className='BreakLine' />
             <div className='MiddleContainer'>
