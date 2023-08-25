@@ -31,6 +31,22 @@
     color: rgba(61, 65, 96, 0.6);
 }
 
+@media (min-width:576px) and (max-width:768px) {
+    .LastSection {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .LastSectionFirstChild {
+        grid-column: span 3;
+    }
+
+    .lastImage {
+        width: 209.33px;
+    }
+}
+
 @media screen and (min-width:768px) {
     .LastSection{
         padding: 3rem 4rem;

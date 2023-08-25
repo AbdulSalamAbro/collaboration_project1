@@ -6,8 +6,8 @@ import '../styles/SecondMiddle.css'
 const SecondMiddle = () => {
     return (
         <section className='SecondMiddleContainer'>
-            <div className='card onlyCard'>
-                <img className='projectImage' src={card1} alt="" />
+            <div className='card firstCard onlyCard'>
+                <img  src={card1} alt="" />
                 <div className='TitleContainer'>
                     <p>How to optimize your pages to get more traffic
                         on mobile devices.

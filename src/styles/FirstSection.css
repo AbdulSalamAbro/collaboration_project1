@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     color: rgba(255, 255, 255, 1);
-    background-color: #0E204C;
+    background-image: url('../assets//teslabg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     gap: 20px;
     padding: 300px 20px 40px 20px;
     font-family: 'Noto Sans', sans-serif;
@@ -29,7 +31,17 @@
     padding-top: 20px;
 }
 
-@media screen and (min-width:768px) {
+@media (min-width:576px) and (max-width:768px) {
+  
+    .FirstContainer {
+        padding: 40px 216px 40px 40px;
+    }
+    
+}
+
+
+
+@media screen and (min-width:769px) {
     .FirstContainer {
         display: flex;
         flex-direction: column;

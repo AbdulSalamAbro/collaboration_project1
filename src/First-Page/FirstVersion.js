@@ -5,15 +5,15 @@ import LastSection from "./LastSection";
 import MixContainer from "./MixContainer";
 import SecondMiddle from "./SecondMiddle";
 
-function FirstVersion () {
+function FirstVersion() {
     return (
         <div className="FirstVersion">
-            <FirstSection/>
-            <FirstMiddle/>
-            <SecondMiddle/>
-            <MixContainer/>
-            <LastSection/>
-            <Footer/>
+            <FirstSection />
+            <FirstMiddle />
+            <SecondMiddle />
+            <MixContainer />
+            <LastSection />
+            <Footer />
         </div>
     );
 }

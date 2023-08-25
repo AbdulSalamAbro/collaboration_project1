@@ -40,6 +40,29 @@
 }
 
 
+@media (min-width:576px) and (max-width:768px) {
+    .SecondMiddleContainer {
+        padding: 40px 20px 40px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .firstCard {
+        grid-column: span 3;
+        width: 648px;
+    }
+
+    .projectImage {
+        width: 335px;
+    }
+
+    .MixSecondcard {
+        flex-direction: row;
+    }
+
+}
+
 
 @media screen and (min-width:768px) {
     .SecondMiddleContainer {
@@ -47,7 +70,7 @@
         background-color: #0E204C;
         padding: 3rem 4rem;
         display: grid;
-        grid-template-columns: 1fr  1fr;
+        grid-template-columns: 1fr 1fr 2fr;
         gap: 3rem;
     }
 

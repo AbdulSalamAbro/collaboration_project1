@@ -7,7 +7,7 @@ const FirstMiddle = () => {
     return (
         <section className='FirstMiddleContainer'>
             <div className='card'>
-                <img src={card1} alt="" />
+                <img className='card-img' src={card1} alt="" />
                 <p>How to optimize your pages to get more traffic
                     on mobile devices.
                 </p>
@@ -17,7 +17,7 @@ const FirstMiddle = () => {
                 </span>
             </div>
             <div className='card'>
-                <img src={card1} alt="" />
+                <img className='card-img' src={card1} alt="" />
                 <p>How to optimize your pages to get more traffic
                     on mobile devices.
                 </p>
@@ -27,7 +27,7 @@ const FirstMiddle = () => {
                 </span>
             </div>
             <div className='card'>
-                <img src={card1} alt="" />
+                <img className='card-img' src={card1} alt="" />
                 <p>How to optimize your pages to get more traffic
                     on mobile devices.
                 </p>

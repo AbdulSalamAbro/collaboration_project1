@@ -28,8 +28,22 @@
     line-height: 16.34px;
 }
 
+@media (min-width:576px) and (max-width:768px) {
+    .FirstMiddleContainer {
+        padding: 0px 40px 40px 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
 
-@media screen and (min-width:768px) {
+    .card-img {
+        width: 209.33px;
+    }
+    
+}
+
+
+@media screen and (min-width:769px) {
     .FirstMiddleContainer {
         color: #fff;
         background-color: #0E204C;
